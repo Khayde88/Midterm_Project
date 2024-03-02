@@ -1,0 +1,74 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+input, button {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+button {
+    background-color: #868686;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffffffa8;
+}
+
+.button-container button {
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 3px;
+    color: #000000;
+    background-color: #0000004f;
+}
+
+.button-container button:hover {
+    background-color: #00000033;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #0000003b;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #000000d0;
+    color: white;
+}
+
+header {
+    background-color: #000000d0;
+    color: rgb(255, 255, 255);
+    padding: 1px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.background-container {
+    background: url('music.jpg') center center no-repeat;
+    background-size: cover;
+    padding: 30px;
+}
