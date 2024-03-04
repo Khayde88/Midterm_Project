@@ -71,7 +71,7 @@ async function updateTrack(trackId) {
 
     try {
         const response = await fetch(`http://localhost:8000/tracks/${trackId}`, {
-            method: 'PUT',  // Use PUT method for updates
+            method: 'PUT',  // PUT method for updates
             headers: {
                 'Content-Type': 'application/json',
             },
@@ -90,7 +90,6 @@ async function updateTrack(trackId) {
     }
 }
 
-// main.js
 async function deleteTrack(button) {
     const trackId = button.getAttribute('data-id');
 

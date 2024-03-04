@@ -19,7 +19,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Mount the "frontend" folder to serve static files like styles.css and index.html
+# Mount the "frontend" folder to serve styles.css and index.html
 app.mount("/static", StaticFiles(directory="frontend"), name="static")
 
 
@@ -59,7 +59,7 @@ music_tracks = [
         duration=3.5,
         genre="Country",
     ),
-    # Add more tracks
+    # Can add more tracks
 ]
 
 
