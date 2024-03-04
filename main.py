@@ -42,8 +42,22 @@ music_tracks = [
         id=2,
         title="Sample Track 2",
         artist="Sample Artist 2",
-        duration=4,
+        duration=4.3,
         genre="Rock",
+    ),
+    Track(
+        id=3,
+        title="Sample Track 3",
+        artist="Sample Artist 3",
+        duration=3.2,
+        genre="Hip-Hop",
+    ),
+    Track(
+        id=4,
+        title="Sample Track 4",
+        artist="Sample Artist 4",
+        duration=3.5,
+        genre="Country",
     ),
     # Add more tracks
 ]

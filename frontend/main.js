@@ -19,6 +19,10 @@ async function createTrack() {
     });
 
     if (response.ok) {
+        document.getElementById('title').value = '';
+        document.getElementById('artist').value = '';
+        document.getElementById('duration').value = '';
+        document.getElementById('genre').value = '';
         loadTracks();
     } else {
         alert('Failed to add track');
